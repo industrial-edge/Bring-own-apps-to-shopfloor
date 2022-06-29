@@ -2,7 +2,7 @@
 
 Below you can find the structure of this use case.
 
-- [Bring own applications to shopfloor - PCB production optimization and quality re-check based on AI techonology](#Bring-own-applications-to-shopfloor-PCB-production-optimization-and-quality-re-check-based-on-AI-techonology)
+- [Bring own applications to shopfloor - PCB production optimization and quality re-check based on AI techonology](#Bring-own-applications-to-shopfloor---PCB-production-optimization-and-quality-re-check-based-on-AI-techonology)
   - [Overview](#Overview)
     - [Project Background](#Project-Background)
     - [Reference Architecture](#Reference-Architecture)
@@ -141,13 +141,13 @@ With the help of AI algorithm and model re-training, improving the PCB quality r
 
 **Industrial Edge Platform**
 
-- Industrial Edge Learning Path (seen in the [Documentation](#5 Documentation))
+- Industrial Edge Learning Path (seen in the [Documentation](#Documentation))
 - Access to an IEM
 - Onboarded 2 IEDs on IEM
 
 **Edge App Development**
 
-- IEAP Learning Path (seen in the [Documentation](#5 Documentation))
+- IEAP Learning Path (seen in the [Documentation](#Documentation))
 - Using IEAP access to an IEM 
 
 **3rd-Party Apps**
