@@ -2,9 +2,9 @@
 
 Below you can find the structure of this use case.
 
-- [Bring own applications to shopfloor - PCB production optimization and quality re-check based on AI techonology](#Bring own applications to shopfloor - PCB production optimization and quality re-check based on AI techonology)
-  - [Overview](#1. Overview)
-    - [Project Background](#1.1 Project Background)
+- [Bring own applications to shopfloor - PCB production optimization and quality re-check based on AI techonology](#Bring-own-applications-to-shopfloor-PCB-production-optimization-and-quality-re-check-based-on-AI-techonology)
+  - [Overview](#1.-Overview)
+    - [Project Background](#1.1-Project Background)
     - [Reference Architecture](#1.2 Reference Architecture)
     - [Network Architecture](#1.3 Network-architecture)
   - [General task](#2. general-task)
