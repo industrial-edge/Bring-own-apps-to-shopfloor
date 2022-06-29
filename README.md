@@ -3,7 +3,7 @@
 Below you can find the structure of this use case.
 
 - [Bring own applications to shopfloor - PCB production optimization and quality re-check based on AI techonology](#Bring-own-applications-to-shopfloor-PCB-production-optimization-and-quality-re-check-based-on-AI-techonology)
-  - [Overview](#1.-Overview)
+  - [Overview](#Overview)
     - [Project Background](#1.1-Project Background)
     - [Reference Architecture](#1.2 Reference Architecture)
     - [Network Architecture](#1.3 Network-architecture)
@@ -18,7 +18,7 @@ Below you can find the structure of this use case.
   - [Contribution](#6. contribution)
   - [License and Legal Information](#7. license-and-legal-information)
 
-## 1. Overview 
+## Overview 
 
 #### 1.1 Project Background
 
