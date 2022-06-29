@@ -29,7 +29,7 @@ In the 3C industry, THT (Through Hole Technology) machine is responsible for the
 
 In the traditional work process, a manual solution was added into the last workstation to resolve two issues above. However, the manual process usually has some weakness in the work stability, accuracy and efficiency, as well as difficult to quantify and continue effectively. 
 
-![overview_background1](docs/graphics/overview_background1.png)
+![overview_background1](./docs/graphics/overview_background1.png)
 
 In the current optimized work process, an AI solution is added into the last workstation to resolve two issues above. Compared with the manual solution, you can find AI solution has 3 advantages below.
 
@@ -37,7 +37,7 @@ In the current optimized work process, an AI solution is added into the last wor
 2. **Steadily improve product quality:** with the help of THT process parameter optimization AI model and AI self-learning technology, the current solution can periodically and stably optimize THT process parameters to further reduce product quality issues.
 3. **Data traceability:** integrate the historical production data of THT and AOI effectively, providing basis for the data analysis and traceability.
 
-![overview_background2](docs/graphics/overview_background2.png)
+![overview_background2](./docs/graphics/overview_background2.png)
 
 #### Reference Architecture
 
@@ -61,7 +61,7 @@ The reference architecture of the AI solution consists of 2 parts.
   | 4.1  | Retrain 2 AI models     | 2nd IED - SQL Server | MindSphere/AWS Cloud |
   | 4.2  | Synchronize 2 AI models | MindSphere/AWS Cloud | 2nd IED - MinIO      |
 
-![overview_referencearchitecture](docs/graphics/overview_referencearchitecture.png)
+![overview_referencearchitecture](./docs/graphics/overview_referencearchitecture.png)
 
 #### Network Architecture
 
@@ -74,7 +74,7 @@ Compared with the reference architecture, the network topology of the AI solutio
 | Factory | 2nd IED  | 192.168.0.132  | Set up the SQL Server and MinIO for the data and AI model storage |
 | Cloud   | Server   | Public network | Set up the environment for the AI model training             |
 
-![overview_networkarchitecture](docs/graphics/overview_networkarchitecture.png)
+![overview_networkarchitecture](./docs/graphics/overview_networkarchitecture.png)
 
 
 
@@ -168,9 +168,9 @@ You can configure and operate the apps in two ways shown as below.
 
 You can view the slide and video below, so that you can get the comprehensive understanding of the data flow and app features of this solution.
 
-- Video link: [Introduction Video](./src/3rd Application Scenario 1st Example Introduction.mp4)
+- Video link: [Introduction Video](./src/3rd-Application-Scenario-1st-Example-Introduction.mp4)
 
-- Slide link: [Introduction Slides](./src/3rd Application Scenario 1st Example Introduction.pdf)
+- Slide link: [Introduction Slides](./src/3rd-Application-Scenario-1st-Example-Introduction.pdf)
 
 #### Hands on Operation
 
@@ -180,13 +180,13 @@ You can also visit and operate apps by using the IED on cloud practically. Compa
 
   Go to the issue tab of this repository and submit a IED access application by clicking the "New issue" button, the issue tab is shown as below.
 
-  ![readme_visit rule_1](docs/graphics/readme_visit rule_1.png)
+  ![readme_visit rule_1](./docs/graphics/readme_visit-rule_1.png)
 
   Choose the "IED_Access_Application" template to fill in the application form, then we will send back the IED access account and password to you by email within 2-3 workdays. This account can guarantee you to visit the IED websites for 5 days, once it expires, you need to re-apply the application, which is shown as below.
 
   **Tips: Please fill in the surveys when you apply for the account, we hope to get your feedback.**
 
-   ![readme_visit rule_2](docs/graphics/readme_visit rule_2.png)
+   ![readme_visit rule_2](./docs/graphics/readme_visit-rule_2.png)
 
 - 1st IED
   
