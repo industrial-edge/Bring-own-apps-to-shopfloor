@@ -4,23 +4,23 @@ Below you can find the structure of this use case.
 
 - [Bring own applications to shopfloor - PCB production optimization and quality re-check based on AI techonology](#Bring-own-applications-to-shopfloor-PCB-production-optimization-and-quality-re-check-based-on-AI-techonology)
   - [Overview](#Overview)
-    - [Project Background](#1.1-Project Background)
-    - [Reference Architecture](#1.2 Reference Architecture)
-    - [Network Architecture](#1.3 Network-architecture)
-  - [General task](#2. general-task)
-  - [Requirements](#3. requirements)
-    - [Used Components](#3.1 used-components)
-    - [Prerequisites](#3.2 prerequisites)
-  - [Configuration and Operation](#4. Configuration and Operation)
-    - [Media Introduction](#4.1 Media Introduction)
-    - [Hands on Operation](#4.2 Hands on Operation )
-  - [Documentation](#5. documentation)
-  - [Contribution](#6. contribution)
-  - [License and Legal Information](#7. license-and-legal-information)
+    - [Project Background](#Project-Background)
+    - [Reference Architecture](#Reference-Architecture)
+    - [Network Architecture](#Network-Architecture)
+  - [General task](#general-task)
+  - [Requirements](#requirements)
+    - [Used Components](#used-components)
+    - [Prerequisites](#prerequisites)
+  - [Configuration and Operation](#Configuration-and-Operation)
+    - [Media Introduction](#Media-Introduction)
+    - [Hands on Operation](#Hands-on-Operation )
+  - [Documentation](#documentation)
+  - [Contribution](#contribution)
+  - [License and Legal Information](#license-and-legal-information)
 
 ## Overview 
 
-#### 1.1 Project Background
+#### Project Background
 
 In the 3C industry, THT (Through Hole Technology) machine is responsible for the PCB soldering, and AOI (Automatic Optical Inspection) machine is responsible for the PCB quality inspection, both of these two machines are the key points in the PCB production. However, these two machines are facing some issues in the practical production environment.
 
@@ -39,7 +39,7 @@ In the current optimized work process, an AI solution is added into the last wor
 
 ![overview_background2](docs/graphics/overview_background2.png)
 
-#### 1.2 Reference Architecture
+#### Reference Architecture
 
 The reference architecture of the AI solution consists of 2 parts.
 
@@ -63,7 +63,7 @@ The reference architecture of the AI solution consists of 2 parts.
 
 ![overview_referencearchitecture](docs/graphics/overview_referencearchitecture.png)
 
-#### 1.3 Network Architecture
+#### Network Architecture
 
 Compared with the reference architecture, the network topology of the AI solution is shown as follows.
 
@@ -78,7 +78,7 @@ Compared with the reference architecture, the network topology of the AI solutio
 
 
 
-## 2. General task
+## General task
 
 Gathering and importing the historical production data from THT machine and AOI machine by sharefolder, and using two AI models in the THT Close-Loop APP to make further quality analysis and close-loop optimization for the PCB products.
 
@@ -87,9 +87,9 @@ Using SQL Server to storage the THT Close-Loop APP inference results and key pro
 With the help of AI algorithm and model re-training, improving the PCB quality re-check accuracy and THT process parameter optimization stability.
 
 
-## 3. Requirements
+## Requirements
 
-#### 3.1 Used Components
+#### Used Components
 
 **Equipment**
 
@@ -132,7 +132,7 @@ With the help of AI algorithm and model re-training, improving the PCB quality r
   >
   > Version - 20220401034139.0.0
 
-####  3.2 Prerequisites
+####  Prerequisites
 
 **Equipment**
 
@@ -160,11 +160,11 @@ With the help of AI algorithm and model re-training, improving the PCB quality r
   - Using Google Chrome (Version ≥ 72) or Firefox (Version ≥ 62) to visit webpage
   - Access to MindSphere/AWS Cloud
 
-## 4. Configuration and Operation
+## Configuration and Operation
 
 You can configure and operate the apps in two ways shown as below.
 
-#### 4.1 Media Introduction
+#### Media Introduction
 
 You can view the slide and video below, so that you can get the comprehensive understanding of the data flow and app features of this solution.
 
@@ -172,7 +172,7 @@ You can view the slide and video below, so that you can get the comprehensive un
 
 - Slide link: [Introduction Slides](./src/3rd Application Scenario 1st Example Introduction.pdf)
 
-#### 4.2 Hands on Operation
+#### Hands on Operation
 
 You can also visit and operate apps by using the IED on cloud practically. Compared with the [media introduction](#4.1 media introduction) way, there will be some limitations due to the access security and intellectual property restrictions, but this method can let you have an intuitive understanding of the actual operation effect and interactive process of the apps.
 
@@ -201,7 +201,7 @@ You can also visit and operate apps by using the IED on cloud practically. Compa
   > tips: containing the SQL Server and MinIO, both of these two databases have been configured successfully for the AI solution, you can operate it but please do not make any changes. 
 
 
-## 5. Documentation
+## Documentation
 
 You can find further documentation and help in the following links
   - [Industrial Edge Hub](https://iehub.eu1.edge.siemens.cloud/#/documentation)
@@ -211,11 +211,11 @@ You can find further documentation and help in the following links
   - Industrial Edge APP Publisher Learning Path
     - [Developer Guide Hands on App](https://github.com/industrial-edge/Developer-Guide-Hands-on-App.git)
     - [Industrial Edge APP Publisher CLI Getting Started](https://github.com/industrial-edge/upload-app-to-industrial-edge-management.git)
-## 6. Contribution
+## Contribution
 
 Thanks for your interest in contributing. Anybody is free to report bugs, unclear documentation, and other problems regarding this repository in the Issues section or, even better, is free to propose any changes to this repository using Merge Requests.
 
-## 7. License and Legal Information
+## License and Legal Information
 
 Please read the [Legal information](./LICENSE.md).
 
