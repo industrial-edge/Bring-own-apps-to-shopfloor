@@ -27,7 +27,7 @@ In the 3C industry, THT (Through Hole Technology) machine is responsible for the
 - Quality re-check for AOI: the quality inspection standard of AOI is too strict, it is likely to cause PCB quality false inspection and product waste. Therefore, how to re-check the AOI quality inspection results efficiently and accurately is becoming particularly important.
 - Process parameter optimization for THT: the soldering quality of PCBs can be optimized by adjusting THT process parameters, but how to gradually and stably optimize the THT process parameters is becoming a great challenge gradually.
 
-In the traditional work process, a manual solution was added into the last workstation to resolve two issues above. However, the manual process usually has some weakness in the work stability, accuracy and efficiency, as well as difficult to quantify and continue effectively. 
+In the traditional work process, a manual solution was added into the last workstation to resolve two issues above. However, the manual process usually has some weakness in the work stability, accuracy and efficiency, as well as difficult to quantify and optimize effectively. 
 
 ![overview_background1](./docs/graphics/overview_background1.png)
 
@@ -174,7 +174,7 @@ You can view the slide and video below, so that you can get the comprehensive un
 
 #### Hands on Operation
 
-You can also visit and operate apps by using the Industrial Edge Device on cloud practically. Compared with the [media introduction](#4.1 media introduction) way, there will be some limitations due to the access security and intellectual property restrictions, but this method can let you have an intuitive understanding of the actual operation effect and interactive process of the apps.
+You can also visit and operate apps by using the Industrial Edge Device on cloud practically. Compared with the [media introduction](#media introduction) way, there will be some limitations due to the access security and intellectual property restrictions, but this method can let you have an intuitive understanding of the actual operation effect and interactive process of the apps.
 
 - Visit rule
 
@@ -182,7 +182,7 @@ You can also visit and operate apps by using the Industrial Edge Device on cloud
 
   ![readme_visit rule_1](./docs/graphics/readme_visit-rule_1.png)
 
-  Choose the "Industrial Edge Device_Access_Application" template to fill in the application form, then we will send back the Industrial Edge Device access account and password to you by email within 2-3 workdays. This account can guarantee you to visit the Industrial Edge Device websites for 5 days, once it expires, you need to re-apply the application, which is shown as below.
+  Choose the "Industrial_Edge_Device_Access_Application" template to fill in the application form, then we will send back the Industrial Edge Device access account and password to you by email within 2-3 workdays. This account can guarantee you to visit the Industrial Edge Device websites for 5 days, once it expires, you need to re-apply the application, which is shown as below.
 
   **Tips: Please fill in the surveys when you apply for the account, we hope to get your feedback.**
 
@@ -192,7 +192,7 @@ You can also visit and operate apps by using the Industrial Edge Device on cloud
 
   > link: [1st Industrial Edge Device access link](https://47.102.98.29)
   >
-  > tips: containing the THT Close-Loop app, you can follow the [media introduction](#4.1 media introduction) to operate the features of the app.
+  > tips: containing the THT Close-Loop app, you can follow the [media introduction](#media introduction) to operate the features of the app.
 
 - 2nd Industrial Edge Device
 
