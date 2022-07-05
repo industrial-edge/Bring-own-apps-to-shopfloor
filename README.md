@@ -190,13 +190,13 @@ You can also visit and operate apps by using the IED on cloud practically. Compa
 
 - 1st IED
   
-  > link: https://47.102.98.29
+  > link: [1st IED access link](https://47.102.98.29)
   >
   > tips: containing the THT Close-Loop app, you can follow the [media introduction](#4.1 media introduction) to operate the features of the app.
   
 - 2nd IED
   
-  > link: https://47.103.59.248
+  > link: [2nd IED access link](https://47.103.59.248)
   >
   > tips: containing the SQL Server and MinIO, both of these two databases have been configured successfully for the AI solution, you can operate it but please do not make any changes. 
 
