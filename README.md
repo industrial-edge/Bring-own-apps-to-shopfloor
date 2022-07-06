@@ -178,9 +178,9 @@ You can also visit and operate apps by using the Industrial Edge Device on cloud
 
 - Industrial Edge Device access rule
 
-  Open the [Industrial Edge Device account application form](https://forms.microsoft.com/Pages/DesignPageV2.aspx?subpage=design&FormId=zTuuOHmV1E-t2rQuFJXVWltH9S2_y1pLv9gBHwjcYPxUN1FQSDU2RFEwRUgzM1JUUThNN1lMN1VIMC4u&Token=ed61fa36077246bd8775f2fa9c31b238) , fill in and submit the form, then we will send back the Industrial Edge Device access account and password to you by email within 2-3 workdays. This account can guarantee you to visit the Industrial Edge Device websites for 5 days, once it expires, you need to re-apply the application.
+  Open the [Industrial Edge Device account application form](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAANVr6o5URVQ3OUNNNFNRUVdRUjczMlJVNFVCVjdIUC4u) , fill in and submit the form, then we will send back the Industrial Edge Device access account and password to you by email within 2-3 workdays. This account can guarantee you to visit the Industrial Edge Device websites for 5 days, once it expires, you need to re-apply the application.
 
-  **Tips: Please fill in the surveys when you apply for the account, we hope to get your feedback.**
+  **Tips: Please fill in the questionaire part when you apply for the account, we hope to get your feedback.**
 
 - 1st Industrial Edge Device
 
