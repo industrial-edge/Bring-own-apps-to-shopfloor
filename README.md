@@ -176,17 +176,11 @@ You can view the slide and video below, so that you can get the comprehensive un
 
 You can also visit and operate apps by using the Industrial Edge Device on cloud practically. Compared with the [media introduction](#media introduction) way, there will be some limitations due to the access security and intellectual property restrictions, but this method can let you have an intuitive understanding of the actual operation effect and interactive process of the apps.
 
-- Visit rule
+- Industrial Edge Device access rule
 
-  Go to the issue tab of this repository and submit an Industrial Edge Device access application by clicking the "New issue" button, the issue tab is shown as below.
-
-  ![readme_visit rule_1](./docs/graphics/readme_visit-rule_1.png)
-
-  Choose the "Industrial_Edge_Device_Access_Application" template to fill in the application form, then we will send back the Industrial Edge Device access account and password to you by email within 2-3 workdays. This account can guarantee you to visit the Industrial Edge Device websites for 5 days, once it expires, you need to re-apply the application, which is shown as below.
+  Open the [Industrial Edge Device account application form](https://forms.microsoft.com/Pages/DesignPageV2.aspx?subpage=design&FormId=zTuuOHmV1E-t2rQuFJXVWltH9S2_y1pLv9gBHwjcYPxUN1FQSDU2RFEwRUgzM1JUUThNN1lMN1VIMC4u&Token=ed61fa36077246bd8775f2fa9c31b238) , fill in and submit the form, then we will send back the Industrial Edge Device access account and password to you by email within 2-3 workdays. This account can guarantee you to visit the Industrial Edge Device websites for 5 days, once it expires, you need to re-apply the application.
 
   **Tips: Please fill in the surveys when you apply for the account, we hope to get your feedback.**
-
-   ![readme_visit rule_2](./docs/graphics/readme_visit-rule_2.png)
 
 - 1st Industrial Edge Device
 
