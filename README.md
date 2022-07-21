@@ -124,13 +124,11 @@ With the help of AI algorithm and model re-training, improving the PCB quality r
 
 - SQL Server
 
-  > Microsoft SQL Server 2019 (RTM-CU15) (KB5008996) - 15.0.4198.2 (X64) - Developer Edition (64-bit) on Linux (Ubuntu 20.04.1 LTS) 
+  > mcr.microsoft.com/mssql/server:2017-latest
 
 - MinIO
 
-  > Architecture - amd64
-  >
-  > Version - 20220401034139.0.0
+  > minio/minio:latest
 
 ####  Prerequisites
 
@@ -178,20 +176,16 @@ You can also visit and operate apps by using the Industrial Edge Device on cloud
 
 - Industrial Edge Device access rule
 
-  Open the [Industrial Edge Device account application form](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAANVr6o5URVQ3OUNNNFNRUVdRUjczMlJVNFVCVjdIUC4u) , fill in and submit the form, then we will send back the Industrial Edge Device access account and password to you by email within 2-3 workdays. This account can guarantee you to visit the Industrial Edge Device websites for 5 days, once it expires, you need to re-apply the application.
+  Open the [Industrial Edge Device account application form](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAANVr6o5URVQ3OUNNNFNRUVdRUjczMlJVNFVCVjdIUC4u) , fill in and submit the form, then we will send back the Industrial Edge Device access link, account and password to you by email within 2-3 workdays. This account can guarantee you to visit the Industrial Edge Device websites for 5 days, once it expires, you need to re-apply the application.
 
   **Tips: Please fill in the questionaire part when you apply for the account, we hope to get your feedback.**
 
 - 1st Industrial Edge Device
 
-  > link: [1st Industrial Edge Device access link](https://47.102.98.29)
-  >
   > tips: containing the THT Close-Loop app, you can follow the [media introduction](#media introduction) to operate the features of the app.
-
+  
 - 2nd Industrial Edge Device
 
-  > link: [2nd Industrial Edge Device access link](https://47.103.59.248)
-  >
   > tips: containing the SQL Server and MinIO, both of these two databases have been configured successfully for the AI solution, you can operate it but please do not make any changes. 
 
 
