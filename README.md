@@ -166,7 +166,7 @@ You can configure and operate the apps in two ways shown as below.
 
 You can view the slide and video below, so that you can get the comprehensive understanding of the data flow and app features of this solution.
 
-- Video link: [Introduction Video](./src/3rd-Application-Scenario-1st-Example-Introduction_player.html)
+- Video link: [Introduction Video](./src/3rd-Application-Scenario-1st-Example-Introduction.mp4)
 
 - Slide link: [Introduction Slides](./src/3rd-Application-Scenario-1st-Example-Introduction.pdf)
 
