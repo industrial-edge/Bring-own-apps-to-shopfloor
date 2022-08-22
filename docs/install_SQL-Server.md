@@ -21,7 +21,7 @@
 
 ## Overview
 
-The following picture shows the technical routing of the THT Close-Loop APP deployment, the number in the picture is corresponded to the steps in the [Installation Steps](#Installation Steps).
+The following picture shows the technical routing of the THT Close-Loop APP deployment, the indexes in the picture are corresponded to the steps in the [Installation Steps](#Installation Steps).
 
 ![install_sqlserver_overview](graphics/install_sqlserver_overview.png)
 
@@ -47,29 +47,7 @@ The only difference is that SQL Server is an open source software, you can pull 
 docker pull mcr.microsoft.com/mssql/server:2017-latest
 ```
 
-Then you can import the following docker-compose.yaml file into IEAP to install SQL Server app on Industrial Edge Management directly.
-
-```
-version: "2.4"
-services: 
-    sqlserver:
-        image: mcr.microsoft.com/mssql/server:2017-latest
-        container_name: sqlserver
-        ports: 
-            - 1433:1433
-        restart: on-failure
-        volumes: 
-            - storage_app_sqlserver:/var/opt/mssql
-            - storage_app_sqlserver_time:/etc/localtime:ro
-        mem_limit: 2gb
-        environment:
-            - ACCEPT_EULA=Y
-            - SA_PASSWORD=<password>          
-
-volumes:
-    storage_app_sqlserver:
-    storage_app_sqlserver_time:
-```
+Then you can import the docker-compose.yml file of SQL Server app into IEAP to install it on Industrial Edge Management directly. The template of the SQL Server yml file can be found in [Docker: Install containers for SQL Server on Linux - SQL Server | Microsoft Docs](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-2017&pivots=cs1-bash). The only difference is that you need to define the memory limitation of the app in the yml file.
 
 #### 4. Install SQL Server app on Industrial Edge Device
 
@@ -79,7 +57,7 @@ Select the Industrial Edge Device of the list, where the app should run on. Clic
 
 <img src="graphics/install_sql_step4-2.png" alt="install_sql_step4-2" style="zoom:67%;" />
 
-When the app deployment is successfully done, you will see the icon shown as below.![install_sql_step4-3](graphics/install_sql_step4-3.png)
+When the app installation is successfully done, you will see the icon shown as below.![install_sql_step4-3](graphics/install_sql_step4-3.png)
 
 
 
