@@ -122,13 +122,10 @@ With the help of AI algorithm and model re-training, improving the PCB quality r
   >
   > 2nd AI model - THT process parameter optimization model
 
-- SQL Server
+- SQL Server (running as a Docker container)
 
-  > mcr.microsoft.com/mssql/server:2017-latest
+- MinIO (running as a Docker container)
 
-- MinIO
-
-  > minio/minio:latest
 
 ####  Prerequisites
 

@@ -21,6 +21,11 @@
 
 ## Overview
 
+Main features of the MinIO in this application example:
+
+- Download the AI models from the cloud and synchronize to the THT Close-Loop APP
+- Collect the dataset from the THT Close-Loop APP and upload to the cloud for the AI models retraining
+
 The following picture shows the technical routing of the THT Close-Loop APP deployment, the indexe in the picture are corresponded to the steps in the [Installation Steps](#Installation Steps).
 
 ![install_minio_overview](graphics/install_minio_overview.png)
@@ -41,7 +46,7 @@ The installation description of this step is the same as the 2nd step of the [TH
 
 The installation description of this step is similar with the 3rd step of the [THT Close-Loop APP Installation](./install_THT-Close-Loop-APP.md), for more details can see the related document.
 
-The only difference is that MinIO is an open source software, you can pull the image from the public repository, using the `docker pull` command to download the specified MinIO image.
+The only difference is that MinIO is an open source software, you can use the `docker pull` command to pull the specified MinIO image from the GitHub repository.
 
 Then you can import the docker-compose.yml file of MinIO into IEAP to install MinIO app on Industrial Edge Management directly. The template yml of MinIO can be downloaded from [MinIO | Deploy MinIO on Docker Compose](https://docs.min.io/docs/deploy-minio-on-docker-compose.html). The only difference is that you need to define the memory limitation of the app in the yml file.
 
