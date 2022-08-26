@@ -41,11 +41,7 @@ The installation description of this step is the same as the 2nd step of the [TH
 
 The installation description of this step is similar with the 3rd step of the [THT Close-Loop APP Installation](./install_THT-Close-Loop-APP.md), for more details can see the related document.
 
-The only difference is that MinIO is an open source software, you can pull the image from the public repository, using the following code to download the latest MinIO image.
-
-```
-docker pull minio/minio:latest
-```
+The only difference is that MinIO is an open source software, you can pull the image from the public repository, using the `docker pull` command to download the specified MinIO image.
 
 Then you can import the docker-compose.yml file of MinIO into IEAP to install MinIO app on Industrial Edge Management directly. The template yml of MinIO can be downloaded from [MinIO | Deploy MinIO on Docker Compose](https://docs.min.io/docs/deploy-minio-on-docker-compose.html). The only difference is that you need to define the memory limitation of the app in the yml file.
 
