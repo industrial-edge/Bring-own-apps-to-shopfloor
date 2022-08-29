@@ -3,11 +3,11 @@
 - [Contents](#Contents)
 - [Prerequisites](#Prerequisites)
 - [Overview](#Overview)
-- [Installation Steps](#Installation Steps)
-  1. [Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)](#1. Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher))
-  2. [Create a new empty app in Industrial Edge Management](#2. Create a new empty app in Industrial Edge Management)
-  3. [Upload THT Close-Loop app to Industrial Edge Management](#3. Upload THT Close-Loop app to Industrial Edge Management)
-  4. [Install THT Close-Loop app on Industrial Edge Device](#4. Install THT Close-Loop app on Industrial Edge Device)
+- [Installation Steps](#Installation-Steps)
+  1. [Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)](#1.-Connect-to-Industrial-Edge-Management-by-IEAP-(Industrial-Edge-APP-Publisher))
+  2. [Create a new empty app in Industrial Edge Management](#2.-Create-a-new-empty-app-in-Industrial-Edge-Management)
+  3. [Upload THT Close-Loop app to Industrial Edge Management](#3.-Upload-THT-Close-Loop-app-to-Industrial-Edge-Management)
+  4. [Install THT Close-Loop app on Industrial Edge Device](#4.-Install-THT-Close-Loop-app-on-Industrial-Edge-Device)
 - [Navigation](#navigation)
 
 
