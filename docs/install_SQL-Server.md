@@ -4,10 +4,10 @@
 - [Prerequisites](#Prerequisites)
 - [Overview](#Overview)
 - [Installation Steps](#Installation-Steps)
-  1. [Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)](#1.-Connect-to-Industrial-Edge-Management-by-IEAP-(Industrial-Edge-APP-Publisher))
-  2. [Create a new empty app in Industrial Edge Management](#2.-Create-a-new-empty-app-in-Industrial-Edge-Management)
-  3. [Upload SQL Server app to Industrial Edge Management](#3.-Upload-SQL-Server-app-to-Industrial-Edge-Management)
-  4. [Install SQL Server app on Industrial Edge Device](#4.-Install-SQL-Server-app-on-Industrial-Edge-Device)
+  - [Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)](#Connect-to-Industrial-Edge-Management-by-IEAP-(Industrial-Edge-APP-Publisher))
+  - [Create a new empty app in Industrial Edge Management](#Create-a-new-empty-app-in-Industrial-Edge-Management)
+  - [Upload SQL Server app to Industrial Edge Management](#Upload-SQL-Server-app-to-Industrial-Edge-Management)
+  - [Install SQL Server app on Industrial Edge Device](#Install-SQL-Server-app-on-Industrial-Edge-Device)
 - [Navigation](#navigation)
 
 
@@ -34,15 +34,15 @@ The following picture shows the technical routing of the THT Close-Loop APP depl
 
 ## Installation Steps
 
-#### 1. Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)
+#### Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)
 
 The installation description of this step is the same as the 1st step of the [THT Close-Loop APP Installation](./install_THT-Close-Loop-APP.md), for more details can see the related document.
 
-#### 2. Create a new empty app in Industrial Edge Management
+#### Create a new empty app in Industrial Edge Management
 
 The installation description of this step is the same as the 2nd step of the [THT Close-Loop APP Installation](./install_THT-Close-Loop-APP.md), for more details can see the related document.
 
-#### 3. Upload SQL Server app to Industrial Edge Management
+#### Upload SQL Server app to Industrial Edge Management
 
 The installation description of this step is similar with the 3rd step of the [THT Close-Loop APP Installation](./install_THT-Close-Loop-APP.md), for more details can see the related document.
 
@@ -50,7 +50,7 @@ The only difference is that SQL Server is an open source software, you can use t
 
 Then you can import the docker-compose.yml file of SQL Server app into IEAP to install it on Industrial Edge Management directly. The template of the SQL Server yml file can be found in [Docker: Install containers for SQL Server on Linux - SQL Server | Microsoft Docs](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-2017&pivots=cs1-bash). The only difference is that you need to define the memory limitation of the app in the yml file.
 
-#### 4. Install SQL Server app on Industrial Edge Device
+#### Install SQL Server app on Industrial Edge Device
 
 So far, you have completed the app uploading to Industrial Edge Management, and you can see the app version list in Industrial Edge Management. Then you can click on the download icon of your version and a new window to install the app is opened. ![install_sql_step4-1](graphics/install_sql_step4-1.png)
 

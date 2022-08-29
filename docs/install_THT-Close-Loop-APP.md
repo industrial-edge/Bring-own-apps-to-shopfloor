@@ -4,10 +4,10 @@
 - [Prerequisites](#Prerequisites)
 - [Overview](#Overview)
 - [Installation Steps](#Installation-Steps)
-  1. [Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)](#1.-Connect-to-Industrial-Edge-Management-by-IEAP-(Industrial-Edge-APP-Publisher))
-  2. [Create a new empty app in Industrial Edge Management](#2.-Create-a-new-empty-app-in-Industrial-Edge-Management)
-  3. [Upload THT Close-Loop app to Industrial Edge Management](#3.-Upload-THT-Close-Loop-app-to-Industrial-Edge-Management)
-  4. [Install THT Close-Loop app on Industrial Edge Device](#4.-Install-THT-Close-Loop-app-on-Industrial-Edge-Device)
+  - [Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)](#Connect-to-Industrial-Edge-Management-by-IEAP-(Industrial-Edge-APP-Publisher))
+  - [Create a new empty app in Industrial Edge Management](#Create-a-new-empty-app-in-Industrial-Edge-Management)
+  - [Upload THT Close-Loop app to Industrial Edge Management](#Upload-THT-Close-Loop-app-to-Industrial-Edge-Management)
+  - [Install THT Close-Loop app on Industrial Edge Device](#Install-THT-Close-Loop-app-on-Industrial-Edge-Device)
 - [Navigation](#navigation)
 
 
@@ -29,7 +29,7 @@ The following picture shows the technical routing of the THT Close-Loop APP depl
 
 ## Installation Steps
 
-#### 1. Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)
+#### Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)
 
 Click on "+Docker Engine" button to add the local Docker Engine to the IEAP of your development environment. 
 
@@ -53,7 +53,7 @@ Then you need to provide your personal credentials to login Industrial Edge Mana
 
 <img src="graphics/install_tht_step1-5.png" alt="install_tht_step1-5" style="zoom:67%;" />
 
-#### 2. Create a new empty app in Industrial Edge Management
+#### Create a new empty app in Industrial Edge Management
 
 After you connect to the Industrial Edge Management you should see the picture below, to view the apps loaded in the Industrial Edge Management. Then you can click on the "+Create Application" button to add a new empty app for the importing preparation of the THT Close-Loop app.
 
@@ -67,7 +67,7 @@ After you complete the THT Close-Loop app repository creation, you can see your 
 
 ![image-20220509143046963](graphics/install_tht_step2-3.png)
 
-#### 3. Upload THT Close-Loop app to Industrial Edge Management
+#### Upload THT Close-Loop app to Industrial Edge Management
 
 Click on the icon of your app, you will enter the app version management page. Then you click on "+Add New Version", a new dialog to select your docker compose version. 
 
@@ -92,7 +92,7 @@ If everything in the docker-compose is correct and the built images are availabl
 
 ![image-20220509145358015](graphics/install_tht_step3-4.png)
 
-#### 4. Install THT Close-Loop app on Industrial Edge Device
+#### Install THT Close-Loop app on Industrial Edge Device
 
 So far, you have completed the app uploading to Industrial Edge Management, and you can see the app version list in Industrial Edge Management. Then you can click on the download icon of your version and a new window to install the app is opened. 
 

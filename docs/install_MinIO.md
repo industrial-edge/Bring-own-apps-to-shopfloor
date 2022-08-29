@@ -4,10 +4,10 @@
 - [Prerequisites](#Prerequisites)
 - [Overview](#Overview)
 - [Installation Steps](#Installation-Steps)
-  1. [Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)](#1.-Connect-to-Industrial-Edge-Management-by-IEAP-(Industrial-Edge-APP-Publisher))
-  2. [Create a new empty app in Industrial Edge Management](#2.-Create-a-new-empty-app-in-Industrial-Edge-Management)
-  3. [Upload MinIO app to Industrial Edge Management](#3.-Upload-MinIO-app-to-Industrial-Edge-Management)
-  4. [Install MinIO app on Industrial Edge Device](#4.-Install-MinIO-app-on-Industrial-Edge-Device)
+  - [Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)](#Connect-to-Industrial-Edge-Management-by-IEAP-(Industrial-Edge-APP-Publisher))
+  - [Create a new empty app in Industrial Edge Management](#Create-a-new-empty-app-in-Industrial-Edge-Management)
+  - [Upload MinIO app to Industrial Edge Management](#Upload-MinIO-app-to-Industrial-Edge-Management)
+  - [Install MinIO app on Industrial Edge Device](#Install-MinIO-app-on-Industrial-Edge-Device)
 - [Navigation](#navigation)
 
 
@@ -34,15 +34,15 @@ The following picture shows the technical routing of the THT Close-Loop APP depl
 
 ## Installation Steps
 
-#### 1. Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)
+#### Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)
 
 The installation description of this step is the same as the 1st step of the [THT Close-Loop APP Installation](./install_THT-Close-Loop-APP.md), for more details can see the related document.
 
-#### 2. Create a new empty app in Industrial Edge Management
+#### Create a new empty app in Industrial Edge Management
 
 The installation description of this step is the same as the 2nd step of the [THT Close-Loop APP Installation](./install_THT-Close-Loop-APP.md), for more details can see the related document.
 
-#### 3. Upload MinIO app to Industrial Edge Management
+#### Upload MinIO app to Industrial Edge Management
 
 The installation description of this step is similar with the 3rd step of the [THT Close-Loop APP Installation](./install_THT-Close-Loop-APP.md), for more details can see the related document.
 
@@ -50,7 +50,7 @@ The only difference is that MinIO is an open source software, you can use the `d
 
 Then you can import the docker-compose.yml file of MinIO into IEAP to install MinIO app on Industrial Edge Management directly. The template yml of MinIO can be downloaded from [MinIO | Deploy MinIO on Docker Compose](https://docs.min.io/docs/deploy-minio-on-docker-compose.html). The only difference is that you need to define the memory limitation of the app in the yml file.
 
-#### 4. Install MinIO app on Industrial Edge Device
+#### Install MinIO app on Industrial Edge Device
 
 So far, you have completed the app uploading to Industrial Edge Management, and you can see the app version list in Industrial Edge Management. Then you can click on the download icon of your version and a new window to install the app is opened. ![install_minio_step4-1](graphics/install_minio_step4-1.png)
 
