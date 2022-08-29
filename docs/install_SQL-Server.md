@@ -4,7 +4,7 @@
 - [Prerequisites](#Prerequisites)
 - [Overview](#Overview)
 - [Installation Steps](#Installation-Steps)
-  - [Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)](#Connect-to-Industrial-Edge-Management-by-IEAP-(Industrial-Edge-APP-Publisher))
+  - [Connect to Industrial Edge Management by Industrial Edge APP Publisher](#Connect-to-Industrial-Edge-Management-by-Industrial-Edge-APP-Publisher)
   - [Create a new empty app in Industrial Edge Management](#Create-a-new-empty-app-in-Industrial-Edge-Management)
   - [Upload SQL Server app to Industrial Edge Management](#Upload-SQL-Server-app-to-Industrial-Edge-Management)
   - [Install SQL Server app on Industrial Edge Device](#Install-SQL-Server-app-on-Industrial-Edge-Device)
@@ -34,7 +34,7 @@ The following picture shows the technical routing of the THT Close-Loop APP depl
 
 ## Installation Steps
 
-#### Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)
+#### Connect to Industrial Edge Management by Industrial Edge APP Publisher
 
 The installation description of this step is the same as the 1st step of the [THT Close-Loop APP Installation](./install_THT-Close-Loop-APP.md), for more details can see the related document.
 

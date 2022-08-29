@@ -4,7 +4,7 @@
 - [Prerequisites](#Prerequisites)
 - [Overview](#Overview)
 - [Installation Steps](#Installation-Steps)
-  - [Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)](#Connect-to-Industrial-Edge-Management-by-IEAP-(Industrial-Edge-APP-Publisher))
+  - [Connect to Industrial Edge Management by Industrial Edge APP Publisher](#Connect-to-Industrial-Edge-Management-by-Industrial-Edge-APP-Publisher)
   - [Create a new empty app in Industrial Edge Management](#Create-a-new-empty-app-in-Industrial-Edge-Management)
   - [Upload THT Close-Loop app to Industrial Edge Management](#Upload-THT-Close-Loop-app-to-Industrial-Edge-Management)
   - [Install THT Close-Loop app on Industrial Edge Device](#Install-THT-Close-Loop-app-on-Industrial-Edge-Device)
@@ -29,7 +29,7 @@ The following picture shows the technical routing of the THT Close-Loop APP depl
 
 ## Installation Steps
 
-#### Connect to Industrial Edge Management by IEAP (Industrial Edge APP Publisher)
+#### Connect to Industrial Edge Management by Industrial Edge APP Publisher
 
 Click on "+Docker Engine" button to add the local Docker Engine to the IEAP of your development environment. 
 
