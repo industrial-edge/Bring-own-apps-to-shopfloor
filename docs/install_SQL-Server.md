@@ -48,10 +48,6 @@ The installation description of this step is similar with the 3rd step of the [T
 
 The only difference is that SQL Server is an open source software, you can use the `docker pull` command to pull the specified SQL Server image from the GitHub repository.
 
-```
-docker pull mcr.microsoft.com/mssql/server:2017-latest
-```
-
 Then you can import the docker-compose.yml file of SQL Server app into IEAP to install it on Industrial Edge Management directly. The template of the SQL Server yml file can be found in [Docker: Install containers for SQL Server on Linux - SQL Server | Microsoft Docs](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-2017&pivots=cs1-bash). The only difference is that you need to define the memory limitation of the app in the yml file.
 
 #### 4. Install SQL Server app on Industrial Edge Device
