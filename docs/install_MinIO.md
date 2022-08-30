@@ -26,7 +26,7 @@ Main features of the MinIO in this application example:
 - Download the AI models from the cloud and synchronize to the THT Close-Loop APP
 - Collect the dataset from the THT Close-Loop APP and upload to the cloud for the AI models retraining
 
-The following picture shows the technical routing of the THT Close-Loop APP deployment, the indexe in the picture are corresponded to the steps in the [Installation Steps](#Installation Steps).
+The following picture shows the technical routing of the THT Close-Loop APP deployment, the indexe in the picture are corresponded to the steps in the [Installation Steps](#Installation-Steps).
 
 ![install_minio_overview](graphics/install_minio_overview.png)
 

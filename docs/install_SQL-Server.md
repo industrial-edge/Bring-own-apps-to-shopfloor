@@ -26,7 +26,7 @@ Main features of the SQL Server in this application example:
 - Store all historical data and key results of the THT Close-Loop APP
 - Provide data support for data interaction between MinIO and THT Close-Loop APP
 
-The following picture shows the technical routing of the THT Close-Loop APP deployment, the indexes in the picture are corresponded to the steps in the [Installation Steps](#Installation Steps).
+The following picture shows the technical routing of the THT Close-Loop APP deployment, the indexes in the picture are corresponded to the steps in the [Installation Steps](#Installation-Steps).
 
 ![install_sqlserver_overview](graphics/install_sqlserver_overview.png)
 

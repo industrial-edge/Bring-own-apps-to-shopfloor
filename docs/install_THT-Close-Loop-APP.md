@@ -21,7 +21,7 @@
 
 ## Overview
 
-The following picture shows the technical routing of the THT Close-Loop APP deployment, the indexes in the picture are corresponded to the steps in the [Installation Steps](#Installation Steps).
+The following picture shows the technical routing of the THT Close-Loop APP deployment, the indexes in the picture are corresponded to the steps in the [Installation Steps](#Installation-Steps).
 
 ![install_tht_overview](graphics/install_tht_overview.png)
 
