@@ -122,15 +122,10 @@ With the help of AI algorithm and model re-training, improving the PCB quality r
   >
   > 2nd AI model - THT process parameter optimization model
 
-- SQL Server
+- SQL Server (running as a Docker container)
 
-  > Microsoft SQL Server 2019 (RTM-CU15) (KB5008996) - 15.0.4198.2 (X64) - Developer Edition (64-bit) on Linux (Ubuntu 20.04.1 LTS) 
+- MinIO (running as a Docker container)
 
-- MinIO
-
-  > Architecture - amd64
-  >
-  > Version - 20220401034139.0.0
 
 ####  Prerequisites
 
@@ -168,7 +163,7 @@ You can configure and operate the apps in two ways shown as below.
 
 You can view the slide and video below, so that you can get the comprehensive understanding of the data flow and app features of this solution.
 
-- Video link: [Introduction Video](./src/3rd-Application-Scenario-1st-Example-Introduction_player.html)
+- Video link: [Introduction Video](./src/3rd-Application-Scenario-1st-Example-Introduction.mp4)
 
 - Slide link: [Introduction Slides](./src/3rd-Application-Scenario-1st-Example-Introduction.pdf)
 
@@ -178,20 +173,16 @@ You can also visit and operate apps by using the Industrial Edge Device on cloud
 
 - Industrial Edge Device access rule
 
-  Open the [Industrial Edge Device account application form](https://forms.microsoft.com/Pages/DesignPageV2.aspx?subpage=design&FormId=zTuuOHmV1E-t2rQuFJXVWltH9S2_y1pLv9gBHwjcYPxUN1FQSDU2RFEwRUgzM1JUUThNN1lMN1VIMC4u&Token=ed61fa36077246bd8775f2fa9c31b238) , fill in and submit the form, then we will send back the Industrial Edge Device access account and password to you by email within 2-3 workdays. This account can guarantee you to visit the Industrial Edge Device websites for 5 days, once it expires, you need to re-apply the application.
+  Open the [Industrial Edge Device account application form](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAANVr6o5URVQ3OUNNNFNRUVdRUjczMlJVNFVCVjdIUC4u) , fill in and submit the form, then we will send back the Industrial Edge Device access link, account and password to you by email within 2-3 workdays. This account can guarantee you to visit the Industrial Edge Device websites for 5 days, once it expires, you need to re-apply the application.
 
-  **Tips: Please fill in the surveys when you apply for the account, we hope to get your feedback.**
+  **Tips: Please fill in the questionaire part when you apply for the account, we hope to get your feedback.**
 
 - 1st Industrial Edge Device
 
-  > link: [1st Industrial Edge Device access link](https://47.102.98.29)
-  >
   > tips: containing the THT Close-Loop app, you can follow the [media introduction](#media introduction) to operate the features of the app.
-
+  
 - 2nd Industrial Edge Device
 
-  > link: [2nd Industrial Edge Device access link](https://47.103.59.248)
-  >
   > tips: containing the SQL Server and MinIO, both of these two databases have been configured successfully for the AI solution, you can operate it but please do not make any changes. 
 
 
